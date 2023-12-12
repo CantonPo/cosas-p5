@@ -2,7 +2,7 @@
 
 let ancho = 400; 
 let alto = 400; 
-let tamrect = 200;
+let cuadrao = 200;
 
 function setup() {
   createCanvas(ancho, alto); 
@@ -11,13 +11,13 @@ function setup() {
   strokeWeight(0);
 
 fill(0, 0 ,255); 
-  rect(0, 200,tamrect);
+  rect(0, 200,cuadrao);
 
 fill(255, 0, 0); 
-  rect(0, 0, tamrect);
+  rect(0, 0, cuadrao);
 
 fill (0, 255, 0); 
-  rect (200, 0, tamrect);
+  rect (200, 0, cuadrao);
 
 fill (0, 0, 0) 
   circle(width/2, height/2, 150);
